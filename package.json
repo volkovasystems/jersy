@@ -1,0 +1,34 @@
+{
+  "name": "jersy",
+  "version": "0.0.0",
+  "description": "Read JSON files.",
+  "main": "jersy.js",
+  "scripts": {
+    "test": "mocha jersy-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/jersy.git"
+  },
+  "keywords": [
+    "read",
+    "json",
+    "file",
+    "jersy"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/jersy/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/jersy#readme",
+  "dependencies": {
+    "calcify": "^0.4.0",
+    "falzy": "^0.11.0",
+    "kept": "^0.10.0",
+    "letgo": "^0.17.0",
+    "lire": "^0.4.0",
+    "protype": "^0.15.0",
+    "zelf": "^0.6.0"
+  }
+}
