@@ -8,4 +8,4 @@ jersy( "./package.json" )
 		console.log( arguments );
 	} );
 
-console.log( jersy( "./packages.json", true ) );
+console.log( jersy( "./packages", true ) );

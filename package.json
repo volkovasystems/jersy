@@ -1,6 +1,6 @@
 {
   "name": "jersy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Read JSON files.",
   "main": "jersy.js",
   "scripts": {

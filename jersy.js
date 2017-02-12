@@ -70,6 +70,7 @@ const protype = require( "protype" );
 const zelf = require( "zelf" );
 
 const EMPTY_OBJECT = "{}";
+const JSON_FILE_PATTERN = /\.json$/;
 
 const jersy = function jersy( path, synchronous ){
 	/*;
@@ -85,8 +86,8 @@ const jersy = function jersy( path, synchronous ){
 		throw new Error( "invalid path" );
 	}
 
-	if( !( /\.json$/ ).test( path ) ){
-		throw new Error( "invalid json file path" );
+	if( !JSON_FILE_PATTERN.test( path ) ){
+		path = `${ path }.json`;
 	}
 
 	if( synchronous ){
