@@ -2,23 +2,23 @@
 # yarn lockfile v1
 
 
-arid@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/arid/-/arid-0.23.0.tgz#dfb7813cabda206cc83ce663447daf3fe64f8f0c"
+arid@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/arid/-/arid-0.24.0.tgz#2fec02ebde325f7cff8d039612b00ab79fed9bc9"
   dependencies:
-    arkount "^0.5.0"
+    arkount "^0.6.0"
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
+    doubt "^0.25.0"
 
-arkount@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/arkount/-/arkount-0.5.0.tgz#6dd1b49295d60d5b651f1605a7c1589978a92167"
+arkount@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/arkount/-/arkount-0.6.0.tgz#70471cfb68d56b6373c247cecf973c63db2d7733"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
-    raze "^0.25.0"
-    truly "^0.17.0"
-    wichevr "^0.7.0"
+    doubt "^0.25.0"
+    raze "^0.27.0"
+    truly "^0.18.0"
+    wichevr "^0.8.0"
 
 asea@^0.13.0:
   version "0.13.0"
@@ -27,12 +27,12 @@ asea@^0.13.0:
     babel-runtime "^6.23.0"
     harden "^0.21.0"
 
-ate@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/ate/-/ate-0.15.0.tgz#8e2f2846542b6f10995f95838f01fa02be01433a"
+ate@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/ate/-/ate-0.16.0.tgz#ffcfd019a542ce57f8fe68e3e3da1a4a84687e24"
   dependencies:
     babel-runtime "^6.23.0"
-    falzy "^0.17.0"
+    falzy "^0.19.0"
     protype "^0.21.0"
     zelf "^0.11.0"
 
@@ -43,15 +43,15 @@ babel-runtime@^6.23.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-budge@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/budge/-/budge-0.21.0.tgz#d109ed0ca10909882395eae9ce36fcf37b74c04a"
+budge@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/budge/-/budge-0.23.0.tgz#d4a1a8fd809df5249a9aa7047e8809117ab277cb"
   dependencies:
-    arkount "^0.5.0"
+    arkount "^0.6.0"
     babel-runtime "^6.23.0"
-    depher "^0.26.0"
-    doubt "^0.24.0"
-    raze "^0.25.0"
+    depher "^0.28.0"
+    doubt "^0.25.0"
+    raze "^0.27.0"
 
 calcify@^0.7.0:
   version "0.7.0"
@@ -61,16 +61,16 @@ calcify@^0.7.0:
     circular-json "^0.3.1"
     parseon "^0.6.0"
 
-called@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/called/-/called-0.21.0.tgz#dc7853416bafd660f93da5eb14610e48c946c57f"
+called@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/called/-/called-0.23.0.tgz#0f07f42e138057401226afdaec394efda53debeb"
   dependencies:
     babel-runtime "^6.23.0"
-    depher "^0.26.0"
+    depher "^0.28.0"
     harden "^0.21.0"
-    kloak "^0.14.0"
-    raze "^0.25.0"
-    wichevr "^0.7.0"
+    kloak "^0.17.0"
+    raze "^0.27.0"
+    wichevr "^0.8.0"
     zelf "^0.11.0"
 
 cemento@^0.15.0:
@@ -85,145 +85,125 @@ circular-json@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.1.tgz#be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
 
-clazof@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/clazof/-/clazof-0.21.0.tgz#eeaebfcef46f8751788ba025753d638dcda22206"
+clazof@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/clazof/-/clazof-0.22.0.tgz#93c98151089eaf3d02c1c37afa2f7eef8d130fd6"
   dependencies:
     babel-runtime "^6.23.0"
-    falzy "^0.17.0"
+    falzy "^0.19.0"
     portel "^0.3.0"
     protype "^0.21.0"
-    raze "^0.25.0"
+    raze "^0.27.0"
     stringe "^0.2.0"
-    wauker "^0.8.0"
-
-cobralize@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.13.0.tgz#d430dbdc0702aca889df50c7812f14a71c5a5283"
-  dependencies:
-    babel-runtime "^6.23.0"
-    disdo "^0.13.0"
-    falzy "^0.17.0"
-    protype "^0.21.0"
+    wauker "^0.9.0"
 
 core-js@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
-decrease@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/decrease/-/decrease-0.20.0.tgz#50a4be565d3971bf20b24c764f6cfa61038af117"
+decrease@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/decrease/-/decrease-0.21.0.tgz#2ec78ea8ce2a1eb43d56247088f5a2f2cfc92541"
   dependencies:
-    arkount "^0.5.0"
+    arkount "^0.6.0"
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
-    falzy "^0.17.0"
+    doubt "^0.25.0"
+    falzy "^0.19.0"
     protype "^0.21.0"
-    raze "^0.25.0"
-    truly "^0.17.0"
+    raze "^0.27.0"
+    truly "^0.18.0"
 
-dephall@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/dephall/-/dephall-0.24.0.tgz#eed62a10b2224e0a2f49a93c37883acf9895fdfe"
-  dependencies:
-    arid "^0.23.0"
-    babel-runtime "^6.23.0"
-    doubt "^0.24.0"
-    falze "^0.20.0"
-    harden "^0.21.0"
-    leveld "^0.0.0"
-    pyck "^0.22.0"
-    raze "^0.25.0"
-    truly "^0.17.0"
-    zelf "^0.11.0"
-
-depher@^0.26.0:
+dephall@^0.26.0:
   version "0.26.0"
-  resolved "https://registry.yarnpkg.com/depher/-/depher-0.26.0.tgz#41d516b4365e37c66c08d9bd002d1ba22cdda654"
+  resolved "https://registry.yarnpkg.com/dephall/-/dephall-0.26.0.tgz#80200837a085b7f15b9f20eeac6947c7546c098e"
   dependencies:
+    arid "^0.24.0"
     babel-runtime "^6.23.0"
-    dephall "^0.24.0"
-    doubt "^0.24.0"
-    falze "^0.20.0"
-    harden "^0.21.0"
-    raze "^0.25.0"
+    doubt "^0.25.0"
+    falze "^0.21.0"
+    leveld "^0.1.0"
+    pyck "^0.24.0"
+    raze "^0.27.0"
+    truly "^0.18.0"
     zelf "^0.11.0"
 
-disdo@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.13.0.tgz#cb999e639218aa2265e8c0bd8632337dd1c55418"
+depher@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/depher/-/depher-0.28.0.tgz#4c767c0e1e6f357662632a9e3079cc412438d249"
   dependencies:
     babel-runtime "^6.23.0"
-    falzy "^0.17.0"
-    protype "^0.21.0"
+    dephall "^0.26.0"
+    doubt "^0.25.0"
+    falze "^0.21.0"
+    raze "^0.27.0"
+    zelf "^0.11.0"
 
-doubt@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.24.0.tgz#6bdcf6d1b6a9b16ae74d77ebba86edd023c2deeb"
+doubt@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.25.0.tgz#81d38fcd79cb642c1d292421ac1f47f902f49616"
   dependencies:
     babel-runtime "^6.23.0"
     cemento "^0.15.0"
     circular-json "^0.3.1"
-    falzy "^0.17.0"
+    falzy "^0.19.0"
     harden "^0.21.0"
     khount "^0.0.0"
     protype "^0.21.0"
     stringe "^0.2.0"
 
-een@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/een/-/een-0.16.0.tgz#2f115d2f1377e18327f897386cd447e7d2cb7de2"
+een@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/een/-/een-0.17.0.tgz#b10641275eadf5bb77e6e30d39ee12fadb95ce32"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
-    eqe "^0.0.0"
+    doubt "^0.25.0"
+    eqe "^0.1.0"
     protype "^0.21.0"
-    raze "^0.25.0"
-    truly "^0.17.0"
+    raze "^0.27.0"
+    truly "^0.18.0"
 
-empt@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/empt/-/empt-0.20.0.tgz#cb943382259d232086a5fe5810be15df2a9bada5"
+empt@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/empt/-/empt-0.21.0.tgz#256b842b0c176ad41abe8909c5d2fe996c516d6c"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
+    doubt "^0.25.0"
     kount "^0.10.0"
     protype "^0.21.0"
 
-eqe@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/eqe/-/eqe-0.0.0.tgz#320d21897a2cd4d870adc9f30a9fb4de2fe82a8d"
+eqe@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/eqe/-/eqe-0.1.0.tgz#ede001bd233ce9b284300c3762cc6e4f96242bf6"
   dependencies:
     babel-runtime "^6.23.0"
-    nafe "^0.0.0"
+    nafe "^0.1.0"
     protype "^0.21.0"
     stringe "^0.2.0"
 
-falze@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/falze/-/falze-0.20.0.tgz#49366885d03e22b68c59175ece0f13871e878bda"
+falze@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/falze/-/falze-0.21.0.tgz#ecfa07753f31da47d7c62e9b4299928746680146"
   dependencies:
-    arid "^0.23.0"
+    arid "^0.24.0"
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
-    empt "^0.20.0"
-    falzy "^0.17.0"
+    doubt "^0.25.0"
+    empt "^0.21.0"
+    falzy "^0.19.0"
     protype "^0.21.0"
 
-falzy@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/falzy/-/falzy-0.17.0.tgz#228535d605ae8d1a0ccd44f185d7534636a166fe"
-  dependencies:
-    babel-runtime "^6.23.0"
-    protype "^0.21.0"
-
-filled@^0.19.0:
+falzy@^0.19.0:
   version "0.19.0"
-  resolved "https://registry.yarnpkg.com/filled/-/filled-0.19.0.tgz#8666ff90b37214ddbe6bce3bda0e77a678de1bf6"
+  resolved "https://registry.yarnpkg.com/falzy/-/falzy-0.19.0.tgz#772829b05585450ca5b1a9436de0ff40cf5819cb"
   dependencies:
-    arkount "^0.5.0"
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
+
+filled@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/filled/-/filled-0.20.0.tgz#4fa445982b4cdef8cf4a1ed8707a568dbc4c4523"
+  dependencies:
+    arkount "^0.6.0"
+    babel-runtime "^6.23.0"
+    doubt "^0.25.0"
 
 harden@^0.21.0:
   version "0.21.0"
@@ -231,26 +211,35 @@ harden@^0.21.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-kein@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/kein/-/kein-0.16.0.tgz#c2307990b655f395e2aba61022ef2078fa8b0cc8"
+impel@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/impel/-/impel-0.12.0.tgz#aabe666b91d699fcfcf43322353a81573e46133e"
   dependencies:
     babel-runtime "^6.23.0"
-    falzy "^0.17.0"
+    falzy "^0.19.0"
+    protype "^0.21.0"
+    zelf "^0.11.0"
+
+kein@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/kein/-/kein-0.17.0.tgz#01ec4bbbd176ada9cab3e9f7349522093e0dd476"
+  dependencies:
+    babel-runtime "^6.23.0"
+    falzy "^0.19.0"
     portel "^0.3.0"
     protype "^0.21.0"
     zelf "^0.11.0"
 
-kept@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/kept/-/kept-0.17.0.tgz#59f688aa1440ce8a5c0f88e7fa440c3ee356889a"
+kept@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/kept/-/kept-0.18.0.tgz#8a5957db7466b51b3291d679de1db7f2ccdceae3"
   dependencies:
-    depher "^0.26.0"
-    falzy "^0.17.0"
+    depher "^0.28.0"
+    falzy "^0.19.0"
     harden "^0.21.0"
-    letgo "^0.25.0"
+    letgo "^0.26.0"
     protype "^0.21.0"
-    raze "^0.25.0"
+    raze "^0.27.0"
     zelf "^0.11.0"
 
 khount@^0.0.0:
@@ -259,19 +248,20 @@ khount@^0.0.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-kloak@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/kloak/-/kloak-0.14.0.tgz#bf9d898a6a96e833c4ee34abd30b31b6e3cbbd0c"
+kloak@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/kloak/-/kloak-0.17.0.tgz#56835d71be545823324c9a8e1b01c7b9136421af"
   dependencies:
-    ate "^0.15.0"
+    ate "^0.16.0"
     babel-runtime "^6.23.0"
-    cobralize "^0.13.0"
-    falzy "^0.17.0"
+    eqe "^0.1.0"
+    falzy "^0.19.0"
     harden "^0.21.0"
-    kein "^0.16.0"
+    impel "^0.12.0"
     protype "^0.21.0"
-    transpher "^0.17.0"
-    truly "^0.17.0"
+    transpher "^0.19.0"
+    truly "^0.18.0"
+    wichevr "^0.8.0"
 
 kount@^0.10.0:
   version "0.10.0"
@@ -285,49 +275,49 @@ krumb@^0.2.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-letgo@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/letgo/-/letgo-0.25.0.tgz#151c9f8851c29d5fb1a22e5c441df777cddcd639"
+letgo@^0.26.0:
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/letgo/-/letgo-0.26.0.tgz#6b8c4d53365b4d377746745773441801d6a266d1"
   dependencies:
-    arid "^0.23.0"
+    arid "^0.24.0"
     babel-runtime "^6.23.0"
-    budge "^0.21.0"
-    called "^0.21.0"
-    depher "^0.26.0"
-    filled "^0.19.0"
+    budge "^0.23.0"
+    called "^0.23.0"
+    depher "^0.28.0"
+    filled "^0.20.0"
     harden "^0.21.0"
     protype "^0.21.0"
-    truly "^0.17.0"
+    truly "^0.18.0"
     zelf "^0.11.0"
 
-leveld@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/leveld/-/leveld-0.0.0.tgz#217616e9455ad1a4a867fef8d45e0b4382894602"
+leveld@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/leveld/-/leveld-0.1.0.tgz#b8205546fed2cee009456ac6caba905694a743c6"
   dependencies:
-    arid "^0.23.0"
+    arid "^0.24.0"
     babel-runtime "^6.23.0"
-    decrease "^0.20.0"
-    doubt "^0.24.0"
-    falzy "^0.17.0"
+    decrease "^0.21.0"
+    doubt "^0.25.0"
+    falzy "^0.19.0"
     protype "^0.21.0"
-    raze "^0.25.0"
+    raze "^0.27.0"
 
-lire@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/lire/-/lire-0.9.0.tgz#0e32b187910e87acf74454a116c80a04e0c4832c"
+lire@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/lire/-/lire-0.10.0.tgz#e1fa35f4c3aedfa04b67b99bb88e6771fe852fe3"
   dependencies:
-    falzy "^0.17.0"
-    kept "^0.17.0"
-    letgo "^0.25.0"
+    falzy "^0.19.0"
+    kept "^0.18.0"
+    letgo "^0.26.0"
     protype "^0.21.0"
     zelf "^0.11.0"
 
-nafe@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/nafe/-/nafe-0.0.0.tgz#ac3e9faf6bcdbd7613d6cb2faebb01e831d3dc4a"
+nafe@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/nafe/-/nafe-0.1.0.tgz#8dedbc0888f79338cac0dab76e24431559ce8fed"
   dependencies:
     babel-runtime "^6.23.0"
-    falzy "^0.17.0"
+    falzy "^0.19.0"
     protype "^0.21.0"
     stringe "^0.2.0"
 
@@ -347,14 +337,14 @@ portel@^0.3.0:
     babel-runtime "^6.23.0"
     protype "^0.21.0"
 
-protease@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/protease/-/protease-0.15.0.tgz#f0a2522796b4a2e11c010226df2bc52051695624"
+protease@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/protease/-/protease-0.16.0.tgz#1fd591607a5061f8060cc2f827ebe9691c658e15"
   dependencies:
     babel-runtime "^6.23.0"
-    falzy "^0.17.0"
+    falzy "^0.19.0"
     harden "^0.21.0"
-    kein "^0.16.0"
+    kein "^0.17.0"
     protype "^0.21.0"
 
 protype@^0.21.0:
@@ -365,27 +355,26 @@ protype@^0.21.0:
     cemento "^0.15.0"
     harden "^0.21.0"
 
-pyck@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/pyck/-/pyck-0.22.0.tgz#79ce1e85c9a69e27b328124d4a822b57b72d6526"
+pyck@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/pyck/-/pyck-0.24.0.tgz#e2d2264de623d570db52ce5cf5b9c4e4516d5645"
   dependencies:
     babel-runtime "^6.23.0"
-    clazof "^0.21.0"
-    doubt "^0.24.0"
-    falzy "^0.17.0"
-    harden "^0.21.0"
+    clazof "^0.22.0"
+    doubt "^0.25.0"
+    falzy "^0.19.0"
     protype "^0.21.0"
-    raze "^0.25.0"
-    truly "^0.17.0"
+    raze "^0.27.0"
+    truly "^0.18.0"
     zelf "^0.11.0"
 
-raze@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/raze/-/raze-0.25.0.tgz#75752b799cae83014e98aaf03d2913ce996b12c5"
+raze@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/raze/-/raze-0.27.0.tgz#f851bba1b6709489e22603258ca474b4c2d4db54"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.24.0"
-    harden "^0.21.0"
+    doubt "^0.25.0"
+    falzy "^0.19.0"
 
 regenerator-runtime@^0.10.0:
   version "0.10.3"
@@ -397,40 +386,39 @@ stringe@^0.2.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-transpher@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/transpher/-/transpher-0.17.0.tgz#9a4dea269d71afe411785feccc99bb5eab679a16"
+transpher@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/transpher/-/transpher-0.19.0.tgz#545b09e95f5c11c6e52f058c9c5c55efbac9da81"
   dependencies:
-    ate "^0.15.0"
+    ate "^0.16.0"
     babel-runtime "^6.23.0"
-    depher "^0.26.0"
-    falzy "^0.17.0"
-    kein "^0.16.0"
+    depher "^0.28.0"
+    falzy "^0.19.0"
+    kein "^0.17.0"
 
-truly@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/truly/-/truly-0.17.0.tgz#3b2c6883d95285d9d3a22fd5d2588d8b266e06c9"
+truly@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/truly/-/truly-0.18.0.tgz#333c3f312083e31bbc601ccb95919ddafb14f4e3"
   dependencies:
     babel-runtime "^6.23.0"
+
+wauker@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/wauker/-/wauker-0.9.0.tgz#0efbbc2292fadbe4dad5f712a37fcd5590ef614d"
+  dependencies:
+    babel-runtime "^6.23.0"
+    een "^0.17.0"
+    falzy "^0.19.0"
+    protease "^0.16.0"
     protype "^0.21.0"
 
-wauker@^0.8.0:
+wichevr@^0.8.0:
   version "0.8.0"
-  resolved "https://registry.yarnpkg.com/wauker/-/wauker-0.8.0.tgz#78ba627e2a0fa9fe91b3e45b5ee1815994d5e9d5"
+  resolved "https://registry.yarnpkg.com/wichevr/-/wichevr-0.8.0.tgz#33dd61a476ccf9a844be0d0e11afdad9f6a9b16a"
   dependencies:
     babel-runtime "^6.23.0"
-    een "^0.16.0"
-    falzy "^0.17.0"
-    protease "^0.15.0"
-    protype "^0.21.0"
-
-wichevr@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/wichevr/-/wichevr-0.7.0.tgz#c1d6c3b12b9decf7db9daf99c20bafb021eb4016"
-  dependencies:
-    babel-runtime "^6.23.0"
-    raze "^0.25.0"
-    truly "^0.17.0"
+    raze "^0.27.0"
+    truly "^0.18.0"
 
 zelf@^0.11.0:
   version "0.11.0"
