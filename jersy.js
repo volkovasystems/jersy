@@ -115,7 +115,8 @@ const jersy = function jersy( path, synchronous ){
 			kept( path, READ )
 				( function done( error, readable ){
 					if( error ){
-						error = new Error( `cannot read json file, ${ error.stack }` );
+						error = new Error( `cannot read json file,
+								${ error.stack }` );
 
 						cache.callback( error, EMPTY_OBJECT );
 
@@ -123,7 +124,8 @@ const jersy = function jersy( path, synchronous ){
 						lire( path )
 							( function done( error, result ){
 								if( error ){
-									error = new Error( `error reading json file, ${ error.stack }` );
+									error = new Error( `error reading json file,
+											${ error.stack }` );
 
 									cache.callback( error, EMPTY_OBJECT );
 
