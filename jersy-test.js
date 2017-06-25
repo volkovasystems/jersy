@@ -1,11 +1,12 @@
 
+const assert = require( "assert" );
 const jersy = require( "./jersy.js" );
 
-console.log( jersy( "./package.json", true ) );
+assert.equal( jersy( "./test.json", true ), JSON.stringify( { "hello": "world" }, null, "\t" ), "should be equal" );
 
-jersy( "./package.json" )
+jersy( "./test.json" )
 	( function done( error, result ){
-		console.log( arguments );
-	} );
+		assert.equal( result, JSON.stringify( { "hello": "world" }, null, "\t" ), "should be equal" );
 
-console.log( jersy( "./packages", true ) );
+		console.log( "ok" );
+	} );
