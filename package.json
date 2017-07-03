@@ -1,6 +1,6 @@
 {
 	"name": "jersy",
-	"version": "0.10.0",
+	"version": "0.11.0",
 	"description": "Read JSON files.",
 	"main": "jersy.js",
 	"scripts": {
@@ -28,8 +28,8 @@
 	"dependencies": {
 		"calcify": "^0.9.0",
 		"falzy": "^0.20.0",
-		"kept": "^0.22.0",
-		"lire": "^0.15.0",
+		"kept": "^0.23.0",
+		"lire": "^0.16.0",
 		"protype": "^0.22.0",
 		"zelf": "^0.12.0"
 	}
