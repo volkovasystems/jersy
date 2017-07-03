@@ -32,10 +32,10 @@
 			"file": "jersy.js",
 			"module": "jersy",
 			"author": "Richeve S. Bebedor",
+			"eMail": "richeve.bebedor@gmail.com",
 			"contributors": [
 				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
 			],
-			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/jersy.git",
 			"test": "jersy-test.js",
 			"global": true
