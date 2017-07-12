@@ -3,6 +3,5 @@ calcify \
 falzy \
 kept \
 lire \
-protype \
 zelf \
 --save

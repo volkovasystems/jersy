@@ -54,7 +54,6 @@
 			"falzy": "falzy",
 			"kept": "kept",
 			"lire": "lire",
-			"protype": "protype",
 			"zelf": "zelf"
 		}
 	@end-include
@@ -64,7 +63,6 @@ const calcify = require( "calcify" );
 const falzy = require( "falzy" );
 const kept = require( "kept" );
 const lire = require( "lire" );
-const protype = require( "protype" );
 const zelf = require( "zelf" );
 
 const EMPTY_OBJECT = "{}";
@@ -80,7 +78,7 @@ const jersy = function jersy( path, synchronous ){
 		@end-meta-configuration
 	*/
 
-	if( falzy( path ) || !protype( path, STRING ) ){
+	if( falzy( path ) || typeof path != "string" ){
 		throw new Error( "invalid path" );
 	}
 
@@ -109,19 +107,15 @@ const jersy = function jersy( path, synchronous ){
 	}else{
 		let catcher = kept.bind( zelf( this ) )( path, READ )
 			.then( function done( error, readable ){
-				if( error instanceof Error ){
-					return catcher.pass( new Error( `cannot read json file, ${ error.stack }` ), EMPTY_OBJECT );
+				if( readable ){
+					return lire( path )( function done( error, result ){
+						if( error instanceof Error ){
+							return catcher.pass( new Error( `cannot read json file, ${ error.stack }` ) );
 
-				}else if( readable ){
-					return lire( path )
-						( function done( error, result ){
-							if( error instanceof Error ){
-								return catcher.pass( new Error( `cannot read json file, ${ error.stack }` ) );
-
-							}else{
-								return catcher.pass( null, calcify( result || EMPTY_OBJECT ) );
-							}
-						} );
+						}else{
+							return catcher.pass( null, calcify( result || EMPTY_OBJECT ) );
+						}
+					} );
 
 				}else{
 					return catcher.pass( null, EMPTY_OBJECT );
